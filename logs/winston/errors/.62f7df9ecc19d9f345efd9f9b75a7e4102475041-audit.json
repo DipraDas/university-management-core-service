@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/dipra/Documents/um-core/university-management-core-service-starter/logs/winston/errors/.62f7df9ecc19d9f345efd9f9b75a7e4102475041-audit.json",
+    "files": [
+        {
+            "date": 1709304255741,
+            "name": "/Users/dipra/Documents/um-core/university-management-core-service-starter/logs/winston/errors/phu-2024-01-03-20-error.log",
+            "hash": "aa080dd4230c61b5feefa58fea94e2632c3821daf0147f903822561ae2e9fc93"
+        },
+        {
+            "date": 1709305299300,
+            "name": "/Users/dipra/Documents/um-core/university-management-core-service-starter/logs/winston/errors/phu-2024-01-03-21-error.log",
+            "hash": "98e5d1adbd1ff1202d0c297be0529583aa36f878362ec2df755b1239d594240b"
+        }
+    ],
+    "hashType": "sha256"
+}
