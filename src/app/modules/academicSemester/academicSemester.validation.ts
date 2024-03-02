@@ -23,3 +23,4 @@ const create = z.object({
 export const AcademicSemesterValidation = {
     create
 }
+// test 

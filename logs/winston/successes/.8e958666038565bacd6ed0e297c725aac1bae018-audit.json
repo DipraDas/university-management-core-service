@@ -49,6 +49,11 @@
             "date": 1709388025600,
             "name": "/Users/dipra/Documents/um-core/university-management-core-service-starter/logs/winston/successes/phu-2024-02-03-20-success.log",
             "hash": "5003335801326ff3531b20c5e0ad70fe4c8e89db6a840999d517756e7abaa2c1"
+        },
+        {
+            "date": 1709394084146,
+            "name": "/Users/dipra/Documents/um-core/university-management-core-service-starter/logs/winston/successes/phu-2024-02-03-21-success.log",
+            "hash": "fb98970379532296449f41d70d97bc97e1b9704dd50e70a349fc24938c653f3d"
         }
     ],
     "hashType": "sha256"
