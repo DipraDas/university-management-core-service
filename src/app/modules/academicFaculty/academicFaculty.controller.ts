@@ -15,6 +15,21 @@ const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
     })
 })
 
+
+const getAllFromDB = catchAsync(async (req: Request, res: Response) => {
+
+
+    const result = await AcademicFacultyService.getAllFromDB();
+    sendResponse(res, {
+        statusCode: httpStatus.OK,
+        success: true,
+        message: 'Academic Semester Data Fetched',
+        meta: result.meta,
+        data: result.data
+    })
+})
+
 export const AcademicFacultyController = {
-    insertIntoDB
+    insertIntoDB,
+    getAllFromDB
 }
