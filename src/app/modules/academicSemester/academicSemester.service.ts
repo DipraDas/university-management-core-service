@@ -49,8 +49,6 @@ const getAllFromDB = async (
     const whereConditions: Prisma.AcademicSemesterWhereInput =
         andConditions.length > 0 ? { AND: andConditions } : {}
 
-    console.log('OPripnfws---', options)
-
     const result = await prisma.academicSemester.findMany({
         where: whereConditions,
         skip,
@@ -74,9 +72,17 @@ const getAllFromDB = async (
 
 }
 
+const getDataById = async (id: string): Promise<AcademicSemester | null> => {
+    const result = await prisma.academicSemester.findUnique({
+        where: { id }
+    })
+    return result;
+}
+
 export const AcademicSemesterService = {
     insertIntoDB,
-    getAllFromDB
+    getAllFromDB,
+    getDataById
 }
 
 
